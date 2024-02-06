@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <h1 class="font-style">Cálculos</h1>
+        <p class="font-style02">Atividades de cálculos simples pra aula de desenvolvimento</p>
+    </div>
+    <div class="div-calculos">
+        <div class="dividido">  
+            <div><h2> Soma </h2></div>
+                <div>
+                    <label> Numero 1</label>
+                    <input type="number" id="01">
+                </div>
+                <div>
+                    <label> Numero 2</label>
+                    <input type="number" id="02">
+                </div>
+                <div>
+                    <button onclick="somar()">Calcular</button>
+                </div>
+                <div>
+                    <p>Resultado: <span id="resultadoSO"></span></p>
+                </div>
+        </div>        
+        <div class="dividido">        
+            <div>
+                <h2>Subtracao</h2>
+                <label> Numero 1</label>
+                <input type="number" id="03">
+            </div>
+            <div>
+                <label> Numero 2</label>
+                <input type="number" id="04">
+            </div>
+            <div>
+                <button onclick="subtrair()">Calcular</button>
+            </div>
+            <div>
+                <p>Resultado: <span id="resultadoS"></span></p>
+            </div>
+        </div>    
+        <div class="dividido">    
+            <div>
+                <h2>Multiplicacao</h2>
+                <label> Numero 1</label>
+                <input type="number" id="05">
+            </div>
+            <div>
+                <label> Numero 2</label>
+                <input type="number" id="06">
+            </div>
+            <div>
+                <button onclick="multiplicacao()">Calcular</button>
+            </div>
+            <div>
+                <p>Resultado: <span id="resultadoM"></span></p>
+            </div>
+        </div>
+        <div class="dividido">    
+            <div>
+                <h2>Divisão</h2>
+                <label> Numero 1</label>
+                <input type="number" id="07">
+            </div>
+            <div>
+                <label> Numero 2</label>
+                <input type="number" id="08">
+            </div>
+            <div>
+                <button onclick="dividir()">Calcular</button>
+            </div>
+            <div>
+                <p>Resultado: <span id="resultadoD"></span></p>
+            </div>
+        </div>
+        <div class="dividido">
+            <h2>Média</h2>
+            <div class="wrapNumInput">
+                <label for="num7">Número 01</label>
+                <input type="number" id="09">
+            </div>
+            <div class="wrapNumInput">
+                <label for="num7">Número 02</label>
+                <input type="number" id="10">
+            </div>
+            <div class="wrapNumInput">
+                <label for="num8">Número 3</label>
+                <input type="number" id="11">
+            </div>
+            <div>
+                <button class="btn" onClick="media()">Calcular</button>
+            </div>
+            <div>
+                <p>Resultado: <span id="resultadoME"></span></p>
+            </div>
+          
+        </div>
+    </div>
+</body>
+</html>

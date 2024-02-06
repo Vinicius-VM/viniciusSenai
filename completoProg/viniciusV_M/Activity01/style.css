@@ -1,0 +1,55 @@
+body{
+   padding: 20px;
+   overflow-x: hidden;
+}
+.principal{
+    width:97% ;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.font-style{
+    border-bottom: 2px solid lightgray;
+    font-size: 3rem;
+    font-family: 'Single Day', cursive;
+    padding-bottom: 15px;
+}
+.font-style02{
+    font-size: 1.8rem;
+}
+.div-calculos{
+    padding: 20px;
+    background-color: rgb(32, 162, 47);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.dividido{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(250, 66, 225);
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+}
+
+button:hover{
+    box-shadow: rgb(0, 0, 0);
+    opacity: 1;
+    cursor: pointer;
+    color: rgb(32, 34, 155);
+    background-color: gold;
+}
